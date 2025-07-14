@@ -1,0 +1,68 @@
+# 🧠 Steam Family Sharing - Paradox ve Gerçek Lisans Mantığı
+
+## 🎯 Giriş
+
+Steam Family Sharing, birden fazla Steam hesabının aynı oyun kütüphanesini paylaşmasına izin verir. Ancak bu sistemin nasıl çalıştığı konusunda internette çok fazla yanlış bilgi dolaşmaktadır.
+
+Bu repo, paylaşım zincirleri, lisans çözümleme ve "kimin oyununu kim oynayabilir?" gibi kafa karıştırıcı sorulara örneklerle net cevaplar vermeyi amaçlıyor.
+
+---
+
+## 📌 Ana Kural
+
+> Steam sadece **oyunu çalıştıran hesabın** lisansına bakar.  
+> Dosyaların kimden geldiği önemli değildir.
+
+---
+
+## 🔄 Senaryo Soruları ve Cevapları
+
+### ❓ Bir arkadaşım oyunu bana paylaştı. Ben başka bir arkadaşla paylaştım. O kişi de o oyunu açabilir mi?
+
+❌ Hayır. Sadece doğrudan paylaşım yapılan kişi oyunu oynayabilir.
+
+---
+
+### ❓ Ben oyunun sahibiyim ama paylaşım üzerinden indirdim. Bir başkası benden indirirse ne olur?
+
+✅ Eğer o kişi de oyunun lisansına sahipse, oyun açılır.  
+📂 İndirilen dosya önemli değil, sadece lisans kontrolü önemlidir.
+
+---
+
+### ❓ Üç kişi aynı oyunun sahibi ama farklı kişilerden indiriyorlar. Steam nasıl karar veriyor?
+
+🎮 Steam sadece şuna bakar:  
+> "Bu kullanıcı bu oyunun lisansına sahip mi?"
+
+Eğer evet → Açılır.  
+Eğer hayır → Paylaşıma bakılır. Paylaşım yoksa → Açılmaz.
+
+---
+
+## 🧪 Örnek: Zincirleme Yükleme
+
+1. Kişi 3 oyunun sahibi, kişi 1’e paylaştı.
+2. Kişi 1, kişi 2’ye paylaştı.
+3. Kişi 2 oyunu gördü ve yükledi.
+
+### ✅ Eğer kişi 2 de oyunun lisansına sahipse:
+Oyun açılır. Steam şöyle der:
+> “Bu senin oyun, kimin dosyasından geldiği mühim değil.”
+
+---
+
+## 📚 Sonuç
+
+Steam Family Sharing:
+- Sadece **tek paylaşım katmanına** izin verir (zincir paylaşım yok)
+- Oyun dosyası → 🆗 serbest
+- Lisans → 🔐 zorunlu
+
+---
+
+## ✍️ Hazırlayan
+
+Bu analiz [@BerkcanTurgay](https://github.com/BerkcanTurgay) tarafından hazırlanmıştır.  
+Yıl: 2025  
+Amaç: Gerçek dünya senaryolarıyla Steam paylaşım sisteminin doğru şekilde anlaşılmasını sağlamak.
